@@ -9,3 +9,25 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+/* Firefox */
+* {
+  scrollbar-width: auto;
+  scrollbar-color: #b1b3b6 #eaeaec;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #eaeaec;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #b1b3b6;
+  border-radius: 15px;
+  border: 1px solid #ffffff;
+}
