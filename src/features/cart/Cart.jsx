@@ -25,7 +25,7 @@ const Cart = ({ onHideCart }) => {
   const handleOpenWhatsapp = () => {
     if (totalItems === 0) return;
 
-    const phoneNumber = "6282120487094";
+    const phoneNumber = "6281285241889";
     const message = encodeURIComponent(
       "Pesanan anda adalah: \n\n" +
         cartItems
