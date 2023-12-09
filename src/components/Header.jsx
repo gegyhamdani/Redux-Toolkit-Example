@@ -13,7 +13,7 @@ const Header = ({ onShowCart }) => {
 
   return (
     <header className="bg-blue-700">
-      <nav className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <nav className="mx-auto max-w-7xl px-4 sm:px-6">
         <div className="flex items-center justify-between h-20">
           <h1 className="text-3xl font-bold tracking-tight text-gray-100">
             Product List

@@ -16,7 +16,7 @@ const ProductList = () => {
   }
 
   return (
-    <div className="p-6 lg:p-10">
+    <div className="py-6 lg:py-10">
       <div className="flex items-center justify-center">
         <div className="grid grid-cols-1 gap-4 rounded-xl sm:grid-cols-2 lg:grid-cols-3 w-full h-full">
           {products.map((product) => (

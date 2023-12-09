@@ -22,7 +22,7 @@ const App = () => {
       <div className="min-h-full">
         <Header onShowCart={handleShowCart} />
 
-        <main className="mx-auto max-w-7xl pb-12 sm:px-6">
+        <main className="mx-auto max-w-7xl px-4 sm:px-6">
           <ProductList />
         </main>
       </div>
